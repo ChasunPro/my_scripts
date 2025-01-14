@@ -7,6 +7,9 @@
 #❷打开小程序或APP-我的-积分, 手动抓包以下几种URL之一
 #https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/shareGiftReceiveRedirect
 #https://mcs-mimp-web.sf-express.com/mcs-mimp/share/app/shareRedirect
+
+cron:15 1,14 * * *
+
 import hashlib
 import json
 import os
